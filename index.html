@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Propinas</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Calculadora Propinas</h1>
+        <p id="subtitulo">By Félix Rodríguez</p>
+    </header>
+    <main>
+        <div class="container1">
+            <form id="formulario">
+                <h3 id="subtitulo2">Cuenta</h3>
+                <label>Total de La Cuenta</label>
+                <br>
+                <input type="number"  id="totalcuenta" placeholder="Ingrese el total de la cuenta">
+                <br>
+                <label>Porcentaje de la Propina</label>
+                <br>
+                <input type="number"  id="porcentajecuenta" placeholder="Ingrese porcentaje total" >
+                <br>
+                <button type="button" id="calcular">Calcular</button>
+            </form>
+            <div id="container2">
+                <h3 id="subtitulo3">Resumen</h3>
+                <div>
+                    <label>Total de la cuenta: </label><span id="totalresult"></span>
+                    <br>
+                    <label>Propina: </label><span id="totalpropin"></span>
+                    <br>
+                    <label>Total a pagar: </label><span id="totalpay"></span>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer><p id="copy">Copyright&#169 - Felix Rodriguez 2022</p></footer>
+</body>
+<script src="script.js"></script>
+</html>
